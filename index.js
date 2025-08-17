@@ -316,25 +316,17 @@ client.on('messageCreate', async (message) => {
           },
           {
             name: '🛡️ Moderation',
-            value: '`!kick <user>` - Kick a user from the server (requires kick permissions).
-`!ban <user>` - Ban a user from the server (requires ban permissions).
-`!mute <user>` - Mute a user for 1 minute (requires moderate members permissions).',
+            value: '`!kick <user>` - Kick a user from the server (requires kick permissions).\n`!ban <user>` - Ban a user from the server (requires ban permissions).\n`!mute <user>` - Mute a user for 1 minute (requires moderate members permissions).',
             inline: false,
           },
           {
             name: '⚙️ Configuration',
-            value: '`!setwelcome <channel>` - Set the welcome channel (requires manage channels permissions).
-`!setmodrole <role>` - Set the moderator role (requires manage roles permissions).',
+            value: '`!setwelcome <channel>` - Set the welcome channel (requires manage channels permissions).\n`!setmodrole <role>` - Set the moderator role (requires manage roles permissions).',
             inline: false,
           },
           {
             name: '📈 Information',
-            value: '`!leaderboard` - Display the top 10 users by XP.
-`!info` - Display bot information.
-`!ping` - Display the bot\'s ping.
-`!uptime` - Display the bot\'s uptime.
-`!servercount` - Display the number of servers the bot is in.
-`!usercount` - Display the number of users the bot is serving.',
+            value: '`!leaderboard` - Display the top 10 users by XP.\n`!info` - Display bot information.\n`!ping` - Display the bot\'s ping.\n`!uptime` - Display the bot\'s uptime.\n`!servercount` - Display the number of servers the bot is in.\n`!usercount` - Display the number of users the bot is serving.',
             inline: false,
           },
           {
